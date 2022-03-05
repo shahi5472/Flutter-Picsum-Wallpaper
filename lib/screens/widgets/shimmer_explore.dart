@@ -25,7 +25,7 @@ class ShimmerExplore extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
+            children: [
               Flexible(
                 flex: 4,
                 child: Container(color: Colors.white),

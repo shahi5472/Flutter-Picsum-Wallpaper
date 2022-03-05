@@ -1,4 +1,8 @@
+import 'dart:convert';
+
 import 'package:equatable/equatable.dart';
+
+List<PicsumModel> picsumModelFromJson(String str) => List<PicsumModel>.from(json.decode(str).map((x) => PicsumModel.fromJson(x)));
 
 class PicsumModel extends Equatable {
   String? id;
@@ -17,14 +21,14 @@ class PicsumModel extends Equatable {
     this.downloadUrl,
   });
 
-  PicsumModel.fromJson(dynamic json) {
-    id = json['id'];
-    author = json['author'];
-    width = json['width'];
-    height = json['height'];
-    url = json['url'];
-    downloadUrl = json['download_url'];
-  }
+  factory PicsumModel.fromJson(Map<String, dynamic> json) => PicsumModel(
+        id: json["id"],
+        author: json["author"],
+        width: json["width"],
+        height: json["height"],
+        url: json["url"],
+        downloadUrl: json["download_url"],
+      );
 
   Map<String, dynamic> toJson() {
     final map = <String, dynamic>{};

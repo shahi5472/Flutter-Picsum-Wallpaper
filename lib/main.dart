@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_picsum_wallpaper/controller/picsum_controller.dart';
 import 'package:flutter_picsum_wallpaper/screens/home_screen.dart';
+import 'package:provider/provider.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,10 +20,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Picsum Wallpaper',
-      theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const HomeScreen(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => PicsumController()),
+      ],
+      child: MaterialApp(
+        title: 'Flutter Picsum Wallpaper',
+        theme: ThemeData(primarySwatch: Colors.deepPurple),
+        home: const HomeScreen(),
+      ),
     );
   }
 }
