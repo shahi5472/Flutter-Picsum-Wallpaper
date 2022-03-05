@@ -14,7 +14,7 @@ The features I'm implemented. Those are -
 
 <br>
 
-## Picsum Wallpaper App
+## Picsum Screenshots App
 
 <img src="screenshots/wallpaper_one.jpg" width="200" height="400" />
 
