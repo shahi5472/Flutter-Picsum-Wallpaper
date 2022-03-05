@@ -1,16 +1,25 @@
 # Flutter-Picsum-Wallpaper
 
-A new Flutter project.
+[Download Apk](https://drive.google.com/file/d/1l6GJlOErwJ68ULXP1Re1xFKlKlivKVi9/view?usp=sharing)
 
-## Getting Started
+## Project Features
 
-This project is a starting point for a Flutter application.
+The features I'm implemented. Those are -
 
-A few resources to get you started if this is your first Flutter project:
+- [View Image on Tap]
+- [Image zoom]
+- [Download Image]
+- [Share Image]
+- [Wallpaper set on Lock, Home screen]
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<br>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Picsum Wallpaper App
+
+<img src="screenshots/wallpaper_one.jpg" width="200" height="400" />
+
+<img src="screenshots/wallpaper_two.jpg" width="200" height="400" />
+
+<img src="screenshots/wallpaper_three.jpg" width="200" height="400" />
+
+<img src="screenshots/wallpaper_four.jpg" width="200" height="400" />
