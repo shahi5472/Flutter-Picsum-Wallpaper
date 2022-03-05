@@ -14,6 +14,22 @@ The features I'm implemented. Those are -
 
 <br>
 
+## Dependencies
+
+- Provider (For state management)
+- Flutter Staggered GridView
+- Cached network image
+- Curved navigation bar
+- Shimmer
+- Flutter Toast
+- Photo View
+- Wallpaper manager flutter
+- Image downloader
+- Animate do
+- HTTP
+
+<br>
+
 ## Picsum Screenshots App
 
 <img src="screenshots/wallpaper_one.jpg" width="200" height="400" />
